@@ -1,0 +1,86 @@
+.exercise-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .exercise-table th, .exercise-table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .exercise-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .exercise-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .update-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .update-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .exercise-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
+  .exercise-table-header h2 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .create-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .create-button:hover {
+    background-color: #4e78ee;
+  }
+  .create-button > svg {
+    font-size: 24px;
+  }
+  
+  .create-button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  

@@ -1,0 +1,29 @@
+{
+    "exercises": [
+      {
+        "id": 1,
+        "name": "Bench Press",
+        "reps": 10,
+        "weight": 135,
+        "unit": "1lbs",
+        "date": "2022-03-15"
+      },
+      {
+        "id": 2,
+        "name": "Squats",
+        "reps": 8,
+        "weight": 225,
+        "unit": "lbs",
+        "date": "2022-03-16"
+      },
+      {
+        "id": 3,
+        "name": "Deadlifts",
+        "reps": 5,
+        "weight": 315,
+        "unit": "lbs",
+        "date": "2022-03-17"
+      }
+    ]
+  }
+  
